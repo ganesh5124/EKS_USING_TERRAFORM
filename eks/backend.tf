@@ -8,7 +8,7 @@ terraform {
   }
   backend "s3" {
     bucket         = "my-aws-data-bucket-for-exp"
-    region         = "us-east-1"
+    region         = "ap-south-1"
     key            = "Full stack project for eks/terraform.tfstate"
     dynamodb_table = "Lock-Files54"
     encrypt        = true
