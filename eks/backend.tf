@@ -10,7 +10,7 @@ terraform {
     bucket         = "my-ep-demo"
     region         = "ap-south-1"
     key            = "full-stack-project-for-k8-eks/terraform.tfstate"
-    dynamodb_table = "Lock-Files5124"
+    dynamodb_table = "k8-dynamo"
     encrypt        = true
   }
 }
