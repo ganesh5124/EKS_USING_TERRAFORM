@@ -7,10 +7,10 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "my-ep-demo"
+    bucket         = "three-tier-demo-web-app"
     region         = "ap-south-1"
     key            = "full-stack-project-for-k8-eks/terraform.tfstate"
-    dynamodb_table = "k8-dynamo"
+    dynamodb_table = "three-tier"
     encrypt        = true
   }
 }
